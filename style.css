@@ -1,0 +1,47 @@
+.button {
+    text-align: center;
+    length: 50px;
+    width: 50px;
+    padding: 20px;
+    background-color: rgb(202, 202, 202);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.container {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 5px;
+    background: white;
+}
+
+.calc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    overflow: hidden;
+}
+
+.top {
+    background-color: rgb(202, 202, 202);
+    padding: 25px;
+    margin: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    font-weight: bold;
+    align-items: flex-end;
+    font-size: 25px;
+}
+
+body {
+    background: rgba(0, 204, 255, 0.121);
+}
